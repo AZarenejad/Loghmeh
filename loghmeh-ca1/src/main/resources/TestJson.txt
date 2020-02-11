@@ -1,0 +1,18 @@
+addRestaurant {"name":"RestaurantBB","description":"luxuray","location":{"x":1.0,"y":2.0},"menu":[{"name":"gheimeh","description":"its yummy!","popularity":0.8, "restaurantName":"Hestauran", "price":20000}]}
+addRestaurant {"name":"RestaurantAA","description":"luxuray","location":{"x":1.0,"y":2.0},"menu":[{"name":"kabab","description":"its delicious!","popularity":0.6,"price":30000},{"name":"gheimeh","description":"its yummy!","popularity":0.6, "restaurantName":"Hestauran", "price":20000}]}
+addRestaurant {"name":"RestaurantCC","description":"luxuray","location":{"x":2.0,"y":2.0},"menu":[{"name":"kabab","description":"its delicious!","popularity":0.6,"price":30000}]}
+addRestaurant {"name":"RestaurantDD","description":"luxuray","location":{"x":3.0,"y":2.0},"menu":[{"name":"kabab","description":"its delicious!","popularity":0.6,"price":30000}]}
+addRestaurant {"name":"RestaurantAA","description":"luxuray","location":{"x":4.0,"y":2.0},"menu":[{"name":"kabab","description":"its delicious!","popularity":0.6,"price":30000}]}
+addFood {"name": "kabab", "description": "it’s yummy!", "popularity": 0.8, "restaurantName": "RestaurantBB", "price": 40000}
+getRestaurants
+getRestaurant {"name": "RestaurantBB"}
+getFood {"foodName": "kabab", "restaurantName": "RestaurantBB"}
+addToCart {"foodName":"kabab","restaurantName":"RestaurantAA"}
+addToCart {"foodName":"kabab","restaurantName":"RestaurantAA"}
+addToCart {"foodName":"gheimeh","restaurantName":"RestaurantAA"}
+addToCart {"foodName":"gheimeh","restaurantName":"RestaurantAA"}
+addToCart {"foodName":"gheimeh","restaurantName":"RestaurantBB"}
+getCart
+finalizeOrder
+getCart
+getRecommendedRestaurants
