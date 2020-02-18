@@ -1,0 +1,10 @@
+addRestaurant {"id": "1", "name":"RestaurantBB","location":{"x":1.0,"y":2.0},"logo":"asd", "menu":[{"name":"gheimeh","description":"its yummy!","popularity":0.8, "restaurantName":"Hestauran", "price":20000, "image":"asd"}]}
+addRestaurant {"id": "2", "name":"RestaurantAA","location":{"x":1.0,"y":2.0},"logo":"asd","menu":[{"name":"kabab","description":"its delicious!","popularity":0.6,"price":30000, "image":"asd"},{"name":"gheimeh","description":"its yummy!","popularity":0.6, "restaurantName":"Hestauran", "price":20000, "image":"asd"}]}
+addFood {"name": "kabab", "description": "it’s yummy!", "popularity": 0.8, "restaurantName": "RestaurantBB", "price": 40000}
+getRestaurants
+addToCart {"foodName":"gheimeh","restaurantName":"RestaurantAA"}
+addToCart {"foodName":"gheimeh","restaurantName":"RestaurantBB"}
+getCart
+finalizeOrder
+getCart
+getRecommendedRestaurants
